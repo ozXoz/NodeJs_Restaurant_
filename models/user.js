@@ -3,10 +3,10 @@
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Azr2010q+',
-  database: 'restaurant_schema'
+  host: 'buup8iufmzqdwxmgag1r-mysql.services.clever-cloud.com',
+  user: 'uaortdlriui4dpmj',
+  password: 'MKJIiQsq8vARALQVgYDL',
+  database: 'buup8iufmzqdwxmgag1r'
 });
 
 
