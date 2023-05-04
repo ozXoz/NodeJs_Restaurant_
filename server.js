@@ -15,6 +15,7 @@ app.use('/auth', authRoutes);
 app.use('/employee', employeeRoutes); // Change this line
 
 const PORT = process.env.PORT || 3001;
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
