@@ -10,9 +10,9 @@ const connection = mysql.createConnection({
     queueLimit: 0
 });
 
-connection.getConnection((err, conn) => {
-  if(err) console.log(err)
-  console.log("Connected successfully")
-})
+// connection.getConnection((err, conn) => {
+//   if(err) console.log(err)
+//   console.log("Connected successfully")
+// })
 
 module.exports = connection;
